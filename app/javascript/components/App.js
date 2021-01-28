@@ -11,12 +11,12 @@ class App extends Component {
 
   render() {
     return (
-      <AuthProvider>
-        {/* <Header history={this.props.history} /> */}
-        <Switch>
-          <Route exact path="/" component={Index} />
-        </Switch>
-      </AuthProvider>
+      <Switch>
+        <Route exact path="/" component={Index} />
+      </Switch>
+      // <AuthProvider>
+      //   {/* <Header history={this.props.history} /> */}
+      // </AuthProvider>
     )
   }
 }
